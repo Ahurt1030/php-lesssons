@@ -12,10 +12,10 @@
 </form>
 <?php
     // Check if the form is submitted
-    
-    /*$name = $_GET['person'];
+
+    $name = $_GET['person'];
     echo $name. " can spell input
-    !";*/
+    !";
 ?>
 
 </body>
