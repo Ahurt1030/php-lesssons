@@ -5,7 +5,16 @@
 <title>My Web Page</title>
 <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-
+<nav>
+    <ul>
+        <li><a href="calculator.php">Calculator</a></li>
+        <li><a href="calender.php">Calendar</a></li>
+        <li><a href="conditionals.php">Conditionals</a></li>
+        <li><a href="datatypes.php">Data Types</a></li>
+        <li><a href="operators.php">Operators</a></li>
+        <li><a href="index.php">Home</a></li>
+    </ul>
+</nav>
 <body>
 
 <form>
