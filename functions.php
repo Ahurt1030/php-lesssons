@@ -19,17 +19,18 @@
     </ul>
 </nav>
 <body>
-<form method="GET">
-    <input type="text" name="person">
-    <button>Submit</button>
+    
 </form>
 <?php
-    // Check if the form is submitted
-
-    if (isset($_GET['person'])) {
-        $name = $_GET['person'];
-        echo $name . " can spell input!";
-    }
+  function newCalc($x){
+    $newnr = $x * 0.01;
+    echo "Here is 1% of what you wrote" .$newnr;
+  }
+    $x = 8796;
+    newCalc($x);
+    echo "<br>";
+    $a =56;
+    newCalc($a);
 ?>
 
 </body>

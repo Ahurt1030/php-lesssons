@@ -19,17 +19,10 @@
     </ul>
 </nav>
 <body>
-<form method="GET">
-    <input type="text" name="person">
-    <button>Submit</button>
-</form>
-<?php
-    // Check if the form is submitted
 
-    if (isset($_GET['person'])) {
-        $name = $_GET['person'];
-        echo $name . " can spell input!";
-    }
+<?php
+   $array = array("Franklin", "Austin", "logan", "Harrison", "Ryan");
+    echo $array[0];
 ?>
 
 </body>
