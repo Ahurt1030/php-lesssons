@@ -17,18 +17,35 @@
     </ul>
 </nav>
 <body>
-<form method="GET">
-    <input type="text" name="person">
-    <button>Submit</button>
-</form>
-<?php
-    // Check if the form is submitted
+    <?php
+    
 
-    if (isset($_GET['person'])) {
-        $name = $_GET['person'];
-        echo $name . " can spell input!";
+    //while loop
+    $u = 1;
+    while ($u <= 5) {
+        echo "hi there<br>";
+        $u++;
     }
-?>
+    
+    //do while loop
+    $x = 1;
+    do{
+        echo "hi  there<br>";
+        $x++;
+    }
+    while ($x <= 5);
 
+    //for loop
+    for ($y = 1; $y <= 10; $y++){
+        echo "hi <br>";
+    }
+
+    //foreach loop
+    $array = array("Franklin", "Austin", "Logan", "Chance", "Ryan");
+
+    foreach ($array as $loopdata) {
+        echo "my name is ".$loopdata."<br>";
+    }
+    ?>
 </body>
 </html>

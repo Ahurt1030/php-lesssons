@@ -14,6 +14,7 @@
         <li><a href="datatypes.php">Data Types</a></li>
         <li><a href="operators.php">Operators</a></li>
         <li><a href="index.php">Home</a></li>
+        <li><a href="loop.php">Loop</a></li>
     </ul>
 </nav>
 <body>
