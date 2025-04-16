@@ -1,24 +1,15 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>My Web Page</title>
 <link rel="stylesheet" type="text/css" href="index.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<nav>
-    <ul>
-        <li><a href="calculator.php">Calculator</a></li>
-        <li><a href="calender.php">Calendar</a></li>
-        <li><a href="conditionals.php">Conditionals</a></li>
-        <li><a href="datatypes.php">Data Types</a></li>
-        <li><a href="operators.php">Operators</a></li>
-        <li><a href="index.php">home</a></li>
-        <li><a href="loop.php">Loop</a></li>
-        <li><a href="arrays.php">Arrays</a></li>
-        <li><a href="functions.php">Functions</a></li>
-    </ul>
-</nav>
+
 <body>
+<?php include('includes/header.php') ; ?>
     <?php
     
 
@@ -49,5 +40,6 @@
         echo "my name is ".$loopdata."<br>";
     }
     ?>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
