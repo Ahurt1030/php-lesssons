@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <link rel="stylesheet" type="text/css" href="index.css">
 <nav>
     <ul>
@@ -12,3 +16,14 @@
         <li><a href="functions.php">Functions</a></li>
     </ul>
 </nav>
+
+<?php
+$_SESSION['username'] = "Franklin";
+echo $_SESSION['username'];
+
+if (!isset($_SESSION['username'])) {
+    echo "you are not logged in";
+} else {
+    echo "you are logged in. ";
+}
+?>
